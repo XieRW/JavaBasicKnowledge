@@ -1,6 +1,12 @@
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * 使用正则表达式隐藏电话号码
+ * @author XieRW
+ * @email 1429382875@qq.com
+ * @date 2020-03-12
+ */
 public class PhoneRegularExpression {
     public static void main(String[] args){
         /**

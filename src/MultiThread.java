@@ -4,6 +4,9 @@ import java.lang.management.ThreadMXBean;
 
 /**
  * 测试JMX获取线程示例
+ * @author XieRW
+ * @email 1429382875@qq.com
+ * @date 2020-03-15
  */
 public class MultiThread {
     public static void main(String[] args){
