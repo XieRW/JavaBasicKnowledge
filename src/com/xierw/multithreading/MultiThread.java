@@ -1,3 +1,5 @@
+package com.xierw.multithreading;
+
 import java.lang.management.ManagementFactory;
 import java.lang.management.ThreadInfo;
 import java.lang.management.ThreadMXBean;

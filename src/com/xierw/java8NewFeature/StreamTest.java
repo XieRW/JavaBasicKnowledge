@@ -1,3 +1,5 @@
+package com.xierw.java8NewFeature;
+
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Stream;
@@ -138,5 +140,6 @@ public class StreamTest {
         }
 
         map.forEach((id, val) -> System.out.println(val));
+
     }
 }
