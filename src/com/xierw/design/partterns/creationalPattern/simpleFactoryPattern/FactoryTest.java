@@ -5,6 +5,7 @@ import java.util.Optional;
 
 /**
  * 简单工厂模式--测试简单工厂模式类
+ *
  * @author XieRW
  * @email 1429382875@qq.com
  * @date 2020-04-07
