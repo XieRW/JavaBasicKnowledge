@@ -1,4 +1,4 @@
-package com.xierw.design.partterns.simpleFactoryPattern;
+package com.xierw.design.partterns.creationalPattern.simpleFactoryPattern;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;

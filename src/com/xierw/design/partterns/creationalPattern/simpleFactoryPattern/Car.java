@@ -1,4 +1,4 @@
-package com.xierw.design.partterns.simpleFactoryPattern;
+package com.xierw.design.partterns.creationalPattern.simpleFactoryPattern;
 
 /**
  * 简单工厂模式--抽象工厂类

@@ -1,4 +1,4 @@
-package com.xierw.design.partterns.simpleFactoryPattern;
+package com.xierw.design.partterns.creationalPattern.simpleFactoryPattern;
 
 import java.text.DateFormat;
 import java.util.Optional;
