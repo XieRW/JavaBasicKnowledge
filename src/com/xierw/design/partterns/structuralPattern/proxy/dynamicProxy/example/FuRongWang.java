@@ -1,7 +1,7 @@
 package com.xierw.design.partterns.structuralPattern.proxy.dynamicProxy.example;
 
 /**
- * 五粮液，拥有销售白酒的许可证
+ * 芙蓉王，拥有销售香烟的许可证
  *
  * @date 2020-04-20
  * @author xieRW
