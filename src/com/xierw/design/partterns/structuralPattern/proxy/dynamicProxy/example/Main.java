@@ -6,7 +6,7 @@ import java.lang.reflect.Proxy;
 /**
  * 测试类，测试动态代理的实现
  *
- * 通过Proxy.newProxyInstance()来代理生成具体的被代理类的实例，每个被代理的示例都会有一个与之关联的InvocationHandle实现类，
+ * 通过Proxy.newProxyInstance()来动态生成不同接口的代理，每个被代理的实例都会有一个与之关联的InvocationHandle实现类，
  * 如果代理的方法被调用，那么代理则会通知和转发给内部的InvocationHandle实现类，由它内部的invoke()去决定怎么处理
  *
  * @date 2020-04-20
