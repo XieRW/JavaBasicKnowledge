@@ -1,5 +1,12 @@
 package com.xierw.design.partterns.structuralPattern.proxy.staticProxy.example;
 
+/**
+ * 实际的数据查询类
+ *
+ * @date 2020-04-20
+ * @author xieRW
+ * @email 1429382875@qq.com
+ */
 public class DBQuery implements IDBQuery {
 
     public DBQuery(){
