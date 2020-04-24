@@ -11,6 +11,9 @@ Java 基础知识整理
 ## 二、[Java8新特性](src/com/xierw/java8NewFeature/)
 ## 三、[多线程](src/com/xierw/multithreading/)
 ## 四、[实用工具](src/com/xierw/practical/)
+### 使用正则表达式隐藏电话号码
+## 五、[数据结构](src/com/xierw/dataStructure)
+### [java实现布隆过滤器](src/com/xierw/dataStructure/bloomFilter)
 
 ---
 
