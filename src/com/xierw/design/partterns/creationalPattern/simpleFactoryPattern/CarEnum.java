@@ -8,7 +8,13 @@ package com.xierw.design.partterns.creationalPattern.simpleFactoryPattern;
  */
 public enum CarEnum {
 
+    /**
+     * 轿车
+     */
     SEDEN("com.xierw.design.partterns.simpleFactoryPattern.Sedan"),
+    /**
+     * 货车
+     */
     TRUNKS("com.xierw.design.partterns.simpleFactoryPattern.Trucks");
 
     private String type;

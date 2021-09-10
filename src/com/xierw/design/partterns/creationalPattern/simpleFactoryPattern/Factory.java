@@ -2,6 +2,9 @@ package com.xierw.design.partterns.creationalPattern.simpleFactoryPattern;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
+import java.text.DateFormat;
+
+import static java.lang.Class.forName;
 
 /**
  * 简单工厂模式--工厂类（基本实现和基于反射机制的优化）
@@ -11,7 +14,7 @@ import java.lang.reflect.InvocationTargetException;
  */
 public class Factory {
 
-    public static Car createCar(String type,String name){
+    public static Car createCar(String type, String name){
         if (type.equals(CarEnum.SEDEN.getType())){
             return new Sedan(name);
         }else if (type.equals(CarEnum.TRUNKS.getType())){
@@ -35,7 +38,7 @@ public class Factory {
      */
     public static Car createCarByReflect(String type,String name){
         try {
-            Class clazz = Class.forName(type);
+            Class clazz = forName(type);
             Constructor constructor = clazz.getConstructor(String.class);
             return (Car)constructor.newInstance(name);
         } catch (IllegalAccessException e) {

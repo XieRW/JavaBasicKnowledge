@@ -6,7 +6,7 @@ Java 基础知识整理
 ## 一、[设计模式](src/com/xierw/design/partterns/)
 ### 1、[创建型模式](src/com/xierw/design/partterns/creationalPattern/)
 ### 2、[结构型模式](src/com/xierw/design/partterns/structuralPattern/)
-### 1、[行为型模式](src/com/xierw/design/partterns/behavioralPattern/)
+### 3、[行为型模式](src/com/xierw/design/partterns/behavioralPattern/)
 
 ## 二、[Java8新特性](src/com/xierw/java8NewFeature/)
 ## 三、[多线程](src/com/xierw/multithreading/)
