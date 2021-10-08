@@ -1,7 +1,7 @@
 package com.xierw.dataStructure.bloomFilter;
 
 /**
- * 测试
+ * 测试布隆过滤器
  *
  * @author XieRW
  * @email 1429382875@qq.com
@@ -9,7 +9,7 @@ package com.xierw.dataStructure.bloomFilter;
  */
 public class demo {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         String value1 = "http://www.baidu.com";
         String value2 = "https://www.baidu.com";
 
