@@ -1,5 +1,7 @@
 package com.xierw.dataStructure.bloomFilter;
 
+import java.util.BitSet;
+
 /**
  * 测试布隆过滤器
  *
@@ -23,5 +25,6 @@ public class demo {
 
         System.out.println(bloomFilter.contains(value1));
         System.out.println(bloomFilter.contains(value2));
+
     }
 }
